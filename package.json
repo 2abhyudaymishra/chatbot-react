@@ -1,7 +1,7 @@
 {
   "name": "6chatbot",
   "version": "0.1.0",
-  "homepage": "https://2abhyudaymishra.github.io/React-chatbot/",
+  "homepage": "https://2abhyudaymishra.github.io/chatbot-react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
