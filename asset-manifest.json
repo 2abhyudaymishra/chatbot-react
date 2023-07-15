@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-chatbot/static/css/main.1cd64164.css",
+    "main.js": "/React-chatbot/static/js/main.8616ffe5.js",
+    "static/media/botimg.jpg": "/React-chatbot/static/media/botimg.84460ba4973f59210d4e.jpg",
+    "index.html": "/React-chatbot/index.html",
+    "main.1cd64164.css.map": "/React-chatbot/static/css/main.1cd64164.css.map",
+    "main.8616ffe5.js.map": "/React-chatbot/static/js/main.8616ffe5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cd64164.css",
+    "static/js/main.8616ffe5.js"
+  ]
+}
