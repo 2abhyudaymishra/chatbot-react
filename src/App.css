@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.App{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button1{
+  height: 35px;
+  width: 90px;
+  border-radius: 90px;
+  cursor: pointer;
+  background-color: #fff;
+  font-family:  system-ui, system-ui, "Segoe UI", "Helvetica Neue", "Fira Sans",  "Oxygen Sans", "Droid Sans","Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol","Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  border: 2px solid rgb(108, 217, 193);
+  margin-left: 45px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button1:hover {
+	background-color: rgb(108, 217, 193);
+	transition: ease 0.3s ;
+	color: #fff;
+}
+.tanslateRight {
+	transition: ease 0.4s;
+	transform: translateX(120px);
+}
+#inputname{
+	margin-top: 10px;
+	margin-left: 10px ;
+	font-size: 0.9rem;
+	box-shadow:  0 0 3px 2px rgba(66, 105, 202, 0.3);
+	border: none;
+	height: 30px;
+	width: 80%;
+	padding-left: 10px;
+
+}
+#inputname:focus{
+	border: none;
+	outline: none;
+}
+.ageselection{
+	height: 20px;
+    width: 70px;
+    text-align: center;
+    font-size: 1rem;
+    background: #fff;
+    color: #585858;
+    margin-left: 55px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.react-chatbot-kit-chat-inner-container{
+	border: 1px solid grey;
+}
+.react-chatbot-kit-chat-header{
+	background-color: #2898ec;
+	color: #fff;
+	height: 4%;
+	box-shadow: 0px 4px 4px 0px rgb(0, 0, 0,0.3);
+	
+}
+.react-chatbot-kit-chat-message-container {
+	overflow-x: hidden;
+	padding: 0 5px 0px 5px;
+	height: 90%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.react-chatbot-kit-chat-bot-message {
+	font-size: 0.9rem;
+	margin-left: 0px;
+	width: auto;
+	max-width: 60%;
+}
+.react-chatbot-kit-chat-bot-avatar-container{
+	background-image: url(./botimg.jpg) ;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 35px;
+    height: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+.react-chatbot-kit-chat-bot-avatar-letter{
+	display: none;
+}
+::-webkit-scrollbar {
+	display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.react-chatbot-kit-chat-input-container {
+	display: none;
+}
+.chatbot-loader-container {
+	animation-duration: 3s;
+	animation-timing-function: 3s;
 }
